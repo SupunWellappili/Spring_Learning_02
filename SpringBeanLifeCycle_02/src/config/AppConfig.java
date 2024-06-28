@@ -14,7 +14,7 @@ public class AppConfig {
 
     @Bean
     //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-    @Scope("prototype")
+   // @Scope("prototype")
     public MyConnection myConnection() {
         return new MyConnection();
     }

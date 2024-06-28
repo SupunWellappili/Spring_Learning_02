@@ -9,7 +9,7 @@ public class AppInitializer {
 
         ctx.register(AppConfig.class);
         ctx.refresh();
-        ctx.registerShutdownHook();
+        //ctx.registerShutdownHook();
 
         /*SpringBeanOne ref1 = ctx.getBean(SpringBeanOne.class);
         SpringBeanOne ref2 = ctx.getBean(SpringBeanOne.class);
@@ -18,10 +18,10 @@ public class AppInitializer {
         System.out.println(ref2);
         System.out.println(ref3);*/
 
-        MyConnection conn1 = ctx.getBean(MyConnection.class);
+        /*MyConnection conn1 = ctx.getBean(MyConnection.class);
         MyConnection conn2 = ctx.getBean(MyConnection.class);
         System.out.println(conn1);
-        System.out.println(conn2);
+        System.out.println(conn2);*/
 
     }
 }
