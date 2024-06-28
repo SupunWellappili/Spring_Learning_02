@@ -4,8 +4,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Boy {
-    public void chattingWithGirl(){
-        Girl girl = new Girl();
+    Girl girl = new Girl();
+
+    public void chattingWithGirl() {
         girl.chat();
     }
 }
