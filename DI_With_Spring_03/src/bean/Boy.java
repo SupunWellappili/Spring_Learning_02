@@ -9,7 +9,12 @@ public class Boy {
 
     //Constructor Injection
     Girl girl;
-    public Boy(Girl g) {
+    /*public Boy(Girl g) {
+        this.girl=g;
+    }*/
+
+    //Setter Method Injection
+    public void setGirl(Girl g){
         this.girl=g;
     }
 
