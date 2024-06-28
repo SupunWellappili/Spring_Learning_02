@@ -1,0 +1,66 @@
+<component name="libraryTable">
+  <library name="SpringFramework">
+    <CLASSES>
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-aop-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-aspects-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-beans-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-context-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-context-indexer-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-context-support-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-core-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-core-test-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-expression-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-instrument-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-jcl-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-jdbc-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-jms-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-messaging-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-orm-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-oxm-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-r2dbc-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-test-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-tx-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-web-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-webflux-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-webmvc-6.0.0-RC2.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-websocket-6.0.0-RC2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-aop-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-aspects-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-beans-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-beans-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-context-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-context-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-context-indexer-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-context-support-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-core-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-core-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-core-test-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-expression-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-instrument-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-jcl-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-jdbc-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-jdbc-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-jms-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-messaging-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-messaging-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-orm-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-oxm-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-r2dbc-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-r2dbc-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-test-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-test-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-tx-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-tx-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-web-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-web-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-webflux-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-webflux-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-webmvc-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-webmvc-6.0.0-RC2-sources.jar!/" />
+      <root url="jar:///Library/Java/JavaVirtualMachines/spring-framework-6.0.0-RC2/libs/spring-websocket-6.0.0-RC2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
