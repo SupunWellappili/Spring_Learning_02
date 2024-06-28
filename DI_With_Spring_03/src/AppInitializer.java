@@ -15,5 +15,6 @@ public class AppInitializer {
         Boy boy = ctx.getBean(Boy.class);
         System.out.println(boy);
         boy.chattingWithGirl();
+
     }
 }
