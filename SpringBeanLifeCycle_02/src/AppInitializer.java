@@ -8,13 +8,13 @@ public class AppInitializer {
 
         ctx.register(AppConfig.class);
         ctx.refresh();
-        //ctx.registerShutdownHook();
+        ctx.registerShutdownHook();
 
         Object bean1 = ctx.getBean(SpringBeanOne.class);
-        Object bean2 = ctx.getBean(SpringBeanOne.class);
+       // Object bean2 = ctx.getBean(SpringBeanOne.class);
 
         System.out.println(bean1);
-        System.out.println(bean2);
+       // System.out.println(bean2);
 
 
     }

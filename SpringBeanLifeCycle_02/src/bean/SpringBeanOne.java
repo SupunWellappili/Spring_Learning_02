@@ -13,6 +13,7 @@ import javax.naming.spi.InitialContextFactory;
 import javax.security.auth.Destroyable;
 
 @Component
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class SpringBeanOne implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
     //02
     //private String id;
