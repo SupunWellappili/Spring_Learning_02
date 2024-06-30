@@ -8,7 +8,8 @@ public class Boy {
 
     @Autowired
    // Girl girl;
-    GoodGirl girl = new Girl();
+    //GoodGirl girl = new Girl();
+    GoodGirl girl;
 
     public Boy() {
         System.out.println("Boy Instantiated");
