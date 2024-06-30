@@ -10,10 +10,16 @@ public class Kamal {
     //GoodKamali  kamali; //Property Injection
     GoodKamali kamali;
 
-    @Autowired
+    /*@Autowired
     public Kamal(GoodKamali k) { //Constructor Injection
         System.out.println("Kamal is in the context");
         this.kamali = k;
+    }*/
+
+    @Autowired
+    public void setKamali(GoodKamali k){
+        System.out.println("Kamal is in the context");
+        this.kamali=k;
     }
 
     public void chattingWithKamali() {
