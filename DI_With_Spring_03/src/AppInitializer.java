@@ -13,12 +13,11 @@ public class AppInitializer {
         ctx.refresh();
         ctx.registerShutdownHook();
 
-        //Boy boy = ctx.getBean(Boy.class);
+        Boy boy = ctx.getBean(Boy.class);
         //System.out.println(boy);
-        //boy.chattingWithGirl();
+        boy.chattingWithGirl();
 
-        Kamal k1 = ctx.getBean(Kamal.class);
-        k1.chattingWithKamali();
-
+        /*Kamal k1 = ctx.getBean(Kamal.class);
+        k1.chattingWithKamali();*/
     }
 }

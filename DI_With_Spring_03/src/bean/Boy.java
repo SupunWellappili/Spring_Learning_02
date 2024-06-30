@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class Boy implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
 
     @Autowired
-    @Qualifier("girlTwo")
+    @Qualifier("girlOne")
     //Girl girl;
     //GoodGirl girl = new Girl();
     GoodGirl girl;

@@ -1,6 +1,8 @@
 package di;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -16,7 +18,7 @@ public class Kamal implements DI {
         this.kamali = k;
     }*/
 
-   /* @Autowired
+    /*@Autowired
     public void setKamali(GoodKamali k){ //Setter Method Injection
         System.out.println("Kamal is in the context");
         this.kamali=k;
@@ -28,7 +30,7 @@ public class Kamal implements DI {
 
     @Override
     @Autowired
-    public void inject(GoodKamali kamali) {
+    public void inject(GoodKamali kamali) { //Interface Injection
         System.out.println("Kamal is in the context");
         this.kamali =kamali;
     }
