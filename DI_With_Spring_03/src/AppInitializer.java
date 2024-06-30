@@ -13,7 +13,7 @@ public class AppInitializer {
         ctx.registerShutdownHook();
 
         Boy boy = ctx.getBean(Boy.class);
-        System.out.println(boy);
+        //System.out.println(boy);
         boy.chattingWithGirl();
 
     }

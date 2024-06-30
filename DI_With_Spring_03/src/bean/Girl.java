@@ -13,7 +13,7 @@ import javax.naming.spi.InitialContextFactory;
 import java.util.Hashtable;
 
 @Component
-public class Girl implements GoodGirl{
+public class Girl implements GoodGirl, BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
     public Girl() {
         System.out.println("Girl Instantiated");
     }
@@ -23,4 +23,28 @@ public class Girl implements GoodGirl{
         System.out.println("Chatting");
     }
 
-  }
+    @Override
+    public void setBeanName(String name) {
+        System.out.println("Girl Bean Name Aware");
+    }
+
+    @Override
+    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
+        System.out.println("Girl Bean Factory Aware");
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        System.out.println("Girl Application Context");
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("Girl Initializing");
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("Girl Destroy");
+    }
+}
