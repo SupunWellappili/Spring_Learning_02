@@ -1,5 +1,6 @@
 import bean.Boy;
 import config.AppConfig;
+import di.Kamal;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
@@ -12,9 +13,12 @@ public class AppInitializer {
         ctx.refresh();
         ctx.registerShutdownHook();
 
-        Boy boy = ctx.getBean(Boy.class);
+        //Boy boy = ctx.getBean(Boy.class);
         //System.out.println(boy);
-        boy.chattingWithGirl();
+        //boy.chattingWithGirl();
+
+        Kamal k1 = ctx.getBean(Kamal.class);
+        k1.chattingWithKamali();
 
     }
 }
