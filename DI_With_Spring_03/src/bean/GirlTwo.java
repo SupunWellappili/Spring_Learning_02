@@ -1,50 +1,47 @@
 package bean;
 
-
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
-import javax.naming.Context;
-import javax.naming.NamingException;
-import javax.naming.spi.InitialContextFactory;
-import java.util.Hashtable;
 
 @Component
-public class Girl implements GoodGirl, BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
-    public Girl() {
-        System.out.println("Girl Instantiated");
+public class GirlTwo implements GoodGirl, BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
+    public GirlTwo() {
+        System.out.println("Girl-02 Instantiated");
     }
 
     @Override
     public void chat() {
-        System.out.println("Chatting");
+        System.out.println("2Chatting");
     }
 
     @Override
     public void setBeanName(String name) {
-        System.out.println("Girl Bean Name Aware");
+        System.out.println("Girl2 Bean Name Aware");
     }
 
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-        System.out.println("Girl Bean Factory Aware");
+        System.out.println("Girl2 Bean Factory Aware");
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        System.out.println("Girl Application Context");
+        System.out.println("Girl2 Application Context");
     }
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("Girl Initializing");
+        System.out.println("Girl2 Initializing");
     }
 
     @Override
     public void destroy() throws Exception {
-        System.out.println("Girl Destroy");
+        System.out.println("Girl2 Destroy");
     }
 }
+
+
