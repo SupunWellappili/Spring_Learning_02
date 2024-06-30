@@ -2,12 +2,15 @@ package bean;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 
 @Component
+@Primary
 public class GirlTwo implements GoodGirl, BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
     public GirlTwo() {
         System.out.println("Girl-02 Instantiated");
@@ -15,7 +18,7 @@ public class GirlTwo implements GoodGirl, BeanNameAware, BeanFactoryAware, Appli
 
     @Override
     public void chat() {
-        System.out.println("2Chatting");
+        System.out.println("02-Chatting");
     }
 
     @Override
