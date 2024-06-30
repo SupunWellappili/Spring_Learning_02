@@ -7,13 +7,16 @@ import org.springframework.stereotype.Component;
 public class Boy {
 
     @Autowired
-    Girl girl;
+   // Girl girl;
+    GoodGirl girl = new Girl();
+
     public Boy() {
         System.out.println("Boy Instantiated");
     }
 
     public void chattingWithGirl() {
-      //  Girl girl = new Girl();
+        //Girl girl = new Girl();
+        //GoodGirl girl1 = new Girl();
         girl.chat();
     }
 }

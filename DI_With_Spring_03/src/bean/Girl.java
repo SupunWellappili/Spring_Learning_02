@@ -13,11 +13,12 @@ import javax.naming.spi.InitialContextFactory;
 import java.util.Hashtable;
 
 @Component
-public class Girl {
+public class Girl implements GoodGirl{
     public Girl() {
         System.out.println("Girl Instantiated");
     }
 
+    @Override
     public void chat() {
         System.out.println("Chatting");
     }
