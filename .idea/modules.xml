@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DI_With_Spring_03/DI_With_Spring.iml" filepath="$PROJECT_DIR$/DI_With_Spring_03/DI_With_Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FullModevsLightMode_04/FullModevsLightMode_04.iml" filepath="$PROJECT_DIR$/FullModevsLightMode_04/FullModevsLightMode_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBeanLifeCycle_02/SpringBeanLifeCycle_02.iml" filepath="$PROJECT_DIR$/SpringBeanLifeCycle_02/SpringBeanLifeCycle_02.iml" />
     </modules>
   </component>
