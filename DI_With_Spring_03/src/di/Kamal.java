@@ -6,17 +6,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class Kamal {
 
+    //@Autowired
+    //GoodKamali  kamali; //Property Injection
+    GoodKamali kamali;
+
     @Autowired
-    GoodKamali  kamali; //Property Injection
-
-    public Kamal() {
-
+    public Kamal(GoodKamali k) { //Constructor Injection
         System.out.println("Kamal is in the context");
-
+        this.kamali = k;
     }
 
     public void chattingWithKamali() {
-
         kamali.chat();
     }
 }
