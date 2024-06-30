@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class GirlOne implements GoodGirl, BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
     public GirlOne() {
         System.out.println("Girl-01 Instantiated");
