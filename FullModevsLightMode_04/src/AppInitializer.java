@@ -1,3 +1,5 @@
+import bean.MyBasicDataSource;
+import bean.MyConnection;
 import config.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -7,6 +9,11 @@ public class AppInitializer {
         ctx.register(AppConfig.class);
         ctx.refresh();
         ctx.registerShutdownHook();
+
+
+        //Context Invocation
+        MyConnection bean = ctx.getBean(MyConnection.class);
+        System.out.println("Context :"+bean);
 
     }
 }

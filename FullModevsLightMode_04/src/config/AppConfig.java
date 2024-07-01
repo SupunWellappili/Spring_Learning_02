@@ -14,12 +14,15 @@ public class AppConfig {
 
     @Bean
     public MyBasicDataSource myBasicDataSource() {
-        //  MyConnection myConnection = new MyConnection();
+        //  MyConnection myConnection = new MyConnection(); //My Create Object
         //  MyConnection myConnection = myConnection();
 
         //Inter Bean Dependency Invocation
-        MyConnection myConnection1 = myConnection();
+        MyConnection myConnection1 = myConnection(); //Application Context Object (Include DI,...etc)
         MyBasicDataSource myBasicDataSource = new MyBasicDataSource();
+
+        System.out.println("inter bean : "+myConnection1);
+
         myBasicDataSource.setMyConnection(myConnection1);
         // return new MyBasicDataSource();
         return myBasicDataSource;
