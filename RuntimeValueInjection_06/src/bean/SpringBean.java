@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringBean {
 
-    @Autowired(required = false)
+    @Autowired(required = false) //Greediest Constructor
     public SpringBean(@Value("C-001") String id, @Value("20") int age, @Value("true") boolean marred) {
         System.out.println(id);
         System.out.println(age);
