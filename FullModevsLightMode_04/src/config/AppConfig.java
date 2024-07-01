@@ -1,8 +1,8 @@
 package config;
 
 
-import bean.SpringBeanOne;
-import bean.SpringBeanTwo;
+import bean.MyBasicDataSource;
+import bean.MyConnection;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -11,19 +11,23 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "bean")
 public class AppConfig {
 
-    @Bean
-    public SpringBeanOne getBeanOne(){
-        //Inter Bean Dependency
-        SpringBeanTwo beanTwo1 = getBeanTwo();
-        SpringBeanTwo beanTwo2 = getBeanTwo();
-        System.out.println(beanTwo1);
-        System.out.println(beanTwo2);
-        return new SpringBeanOne();
-    }
 
     @Bean
-    public SpringBeanTwo getBeanTwo(){
-        return  new SpringBeanTwo();
+    public MyBasicDataSource myBasicDataSource() {
+        //  MyConnection myConnection = new MyConnection();
+        //  MyConnection myConnection = myConnection();
+
+        //Inter Bean Dependency Invocation
+        MyConnection myConnection1 = myConnection();
+        MyBasicDataSource myBasicDataSource = new MyBasicDataSource();
+        myBasicDataSource.setMyConnection(myConnection1);
+        // return new MyBasicDataSource();
+        return myBasicDataSource;
     }
 
+
+    @Bean
+    public MyConnection myConnection() {
+        return new MyConnection();
+    }
 }
