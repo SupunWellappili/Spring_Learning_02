@@ -14,32 +14,32 @@ public class MyBasicDataSource implements BeanNameAware, BeanFactoryAware, Appli
         this.connection = connection;
     }
 
+    public MyBasicDataSource() {
+        System.out.println("My basic instantiated");
+    }
+
+    @Override
+    public void setBeanName(String name) {
+        System.out.println("My basic data source bean name");
+    }
+
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
         System.out.println("My basic data source  ");
     }
 
     @Override
-    public void setBeanName(String name) {
-        System.out.println("My basic data source bean name");
-
-    }
-
-    @Override
-    public void destroy() throws Exception {
-        System.out.println("My basic data source disposable");
-
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        System.out.println("My basic data source Application Context");
     }
 
     @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println("My basic data source initializer");
-
     }
 
     @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        System.out.println("My basic data source Application Context");
-
+    public void destroy() throws Exception {
+        System.out.println("My basic data source disposable");
     }
 }
