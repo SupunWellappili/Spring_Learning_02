@@ -22,10 +22,10 @@ public class AppInitializer {
 
 
         //System.getProperties(); --> Access Predefined properties from Java
-       /* Properties properties = System.getProperties();
+        Properties properties = System.getProperties();
         for (Object key : properties.keySet()) {
             System.out.println(key+" : "+properties.get(key));
-        }*/
+        }
 
         System.out.println("-----------------------");
 
