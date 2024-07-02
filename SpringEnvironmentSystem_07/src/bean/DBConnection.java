@@ -37,8 +37,11 @@ public class DBConnection implements InitializingBean {
         System.out.println("---------------------");
 
         System.out.println(environment);
-        String year = environment.getProperty("yearr");
+        String year = environment.getProperty("yearr"); //Issue key null
         System.out.println(year);
+
+        String requiredProperty = environment.getRequiredProperty("user.namer"); //if key is wrong = Exception
+        System.out.println(requiredProperty);
 
         System.out.println("---------------------");
     }
