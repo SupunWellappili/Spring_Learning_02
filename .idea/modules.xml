@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/RuntimeValueInjection_06/RuntimeValueInjection_06.iml" filepath="$PROJECT_DIR$/RuntimeValueInjection_06/RuntimeValueInjection_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBeanLifeCycle_02/SpringBeanLifeCycle_02.iml" filepath="$PROJECT_DIR$/SpringBeanLifeCycle_02/SpringBeanLifeCycle_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringEnvironmentSystem_07/SpringEnvironmentSystem_07.iml" filepath="$PROJECT_DIR$/SpringEnvironmentSystem_07/SpringEnvironmentSystem_07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring_MVC_08/Spring_MVC_08.iml" filepath="$PROJECT_DIR$/Spring_MVC_08/Spring_MVC_08.iml" />
     </modules>
   </component>
 </project>
